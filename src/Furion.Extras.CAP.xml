@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Furion.Extras.CAP</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Extensions.DependencyInjection.CAPExtension">
+            <summary>
+            对象映射拓展类
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.CAPExtension.AddFurionCap(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DotNetCore.CAP.CapOptions})">
+            <summary>
+            添加对象映射
+            </summary>
+            <param name="services">服务集合</param>
+            <param name="option">CAP配置</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
